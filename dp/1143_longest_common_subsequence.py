@@ -1,6 +1,6 @@
-# https://leetcode.com/problems/longest-common-subsequence/
-
 """
+https://leetcode.com/problems/longest-common-subsequence/
+
 Given two strings text1 and text2, return 
 the length of their longest common subsequence.
 A subsequence of a string is a new string generated 
