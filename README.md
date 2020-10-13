@@ -1,10 +1,14 @@
 # My Leetcode Solutions
 
+- These solutions are not necessarily the most optimal. Rather they are solutions that made sense to me at the time.
+
 ### Notes
 
-- These solutions are not necessarily the most optimal. Rather they are solutions that made sense to me at the time.
-- The graphs directory, problems that involve graph theory solutions. Trees are also included since trees are acyclic connected graphs.
-- The misc_algos directory, problems that require some mystery data structures to solve or other general algorithm problems. Contains two pointers, sliding windows, among others.
-- The dp directory, stands for dynamic programming, my personal favorite type of algorithm problems.
-- The greedy directory, for algorithms where the essence is to use a greedy approach.
-- The design directory, for implementations of particular classes.
+- _graphs_: Problems where you are given a graph representation or the solution involves a graph theory application.
+- _binary_trees_: Problems where you are given trees (acyclic graphs) where each node has at most 2 children.
+- _dynamic_programming_: Problems with solutions involving the algorithm design technique, dynamic programming.
+- _linked_lists_: Problems where you are given a linked list to operate on.
+- _ptr_or_window_technique_: Problems that use two pointer, sliding window, or a similar technique.
+- _greedy_: Problems where a good solution involves a greedy algorithm.
+- _design_: Problems that ask for the implementation of classes.
+- _misc_algos_: Problems that do not fall into the above categories nicely.
