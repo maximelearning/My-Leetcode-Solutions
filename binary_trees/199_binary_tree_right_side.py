@@ -38,5 +38,6 @@ class Solution:
             return
         if depth > len(res):
             res.append(node.val)
+        # visit right nodes first, therefore increases the size of res
         self.traverse(node.right, res, depth + 1)
         self.traverse(node.left, res, depth + 1)

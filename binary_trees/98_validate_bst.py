@@ -20,19 +20,16 @@ Both the left and right subtrees must also be binary search trees.
 
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
+        def traversal(inorder, node):
+            if node is None:
+                return
+            else:
+                traversal(inorder, node.left)
+                inorder.append(node.val)
+                traversal(inorder, node.right)
         inorder = []
-        self.traversal(inorder, root)
-        if len(inorder) <= 1:
-            return True
+        traversal(inorder, root)
         for i in range(len(inorder) - 1):
             if inorder[i] >= inorder[i + 1]:
                 return False
         return True
-
-    def traversal(self, inorder: List[int], node: TreeNode) -> None:
-        if node is None:
-            return
-        else:
-            self.traversal(inorder, node.left)
-            inorder.append(node.val)
-            self.traversal(inorder, node.right)
