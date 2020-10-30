@@ -10,12 +10,12 @@ The right subtree of a node contains only nodes with keys greater than the node'
 Both the left and right subtrees must also be binary search trees.
 """
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 
 class Solution:

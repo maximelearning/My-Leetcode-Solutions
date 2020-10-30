@@ -39,12 +39,12 @@ Input: root = [1,2], p = 1, q = 2
 Output: 1
 """
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 
 class Solution:

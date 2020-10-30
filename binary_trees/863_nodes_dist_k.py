@@ -30,12 +30,12 @@ Note that the inputs "root" and "target" are actually TreeNodes.
 The descriptions of the inputs above are just serializations of these objects.
 """
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 
 class Solution:

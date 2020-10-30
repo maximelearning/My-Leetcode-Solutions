@@ -22,12 +22,13 @@ This problem was inspired by this original tweet by Max Howell:
 Google: 90% of our engineers use the software you wrote (Homebrew), 
 but you can’t invert a binary tree on a whiteboard so f*** off.
 """
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 
 class Solution:
