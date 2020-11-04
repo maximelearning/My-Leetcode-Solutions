@@ -28,7 +28,7 @@ class Solution:
                 zero_pos += 1
 
         """
-        [0,1,0,3,12]
-        [1,0,0,3,12]
-        [0,1,0,3,12]
+        [0,1,0,3,12] i = 0, zero_pos = 0
+        [1,0,0,3,12] i = 1, zero_pos = 1 <-- at the end of the transformation
+        [0,1,0,3,12] i = 2, zero_pos
         """

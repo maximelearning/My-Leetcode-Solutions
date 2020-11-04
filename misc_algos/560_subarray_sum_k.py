@@ -14,7 +14,7 @@ class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         res = 0
         summation = 0
-        table = {0: 1}  # Does this running sum exist?
+        table = {0: 1}  # Does this running sum exist? 1 means yes
         for x in nums:
             summation += x
             # if the running sum - target value = a running sum that
