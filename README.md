@@ -11,14 +11,14 @@
 
 ### Folders
 
-- **arrays**: Problems that have an input array and don't fall nicely under other categories.
-- **design**: Problems that ask for the implementation of classes.
-- **dp**: Problems with solutions involving the algorithm design technique, dynamic programming.
-- **graphs**: Problems where you are given a graph representation or the solution involves a graph theory application.
-- **greedy**: Problems where a good solution involves a greedy algorithm.
-- **linked_lists**: Problems where you are given a linked list to operate on.
-- **matrix**: Problems where the input is a matrix.
-- **sliding_window**: Problems that use the sliding window technique.
-- **strings**: Problems where the inputs are strings.
-- **trees**: Problems where you are given trees (acyclic graphs).
-- **two_pointer**: Problems that use two (or three) pointers to solve.
+- **arrays** [8]: Problems that have an input array and don't fall nicely under other categories.
+- **design** [6]: Problems that ask for the implementation of classes.
+- **dp** [7]: Problems with solutions involving the algorithm design technique, dynamic programming.
+- **graphs** [5]: Problems where you are given a graph representation or the solution involves a graph theory application.
+- **greedy** [3]: Problems where a good solution involves a greedy algorithm.
+- **linked_lists** [3]: Problems where you are given a linked list to operate on.
+- **matrix** [3]: Problems where the input is a matrix.
+- **sliding_window** [3]: Problems that use the sliding window technique.
+- **strings** [10]: Problems where the inputs are strings.
+- **trees** [20]: Problems where you are given trees (acyclic graphs).
+- **two_pointer** [8]: Problems that use two (or three) pointers to solve.
