@@ -7,6 +7,7 @@
 - **graphs**: Problems where you are given a graph representation or the solution involves a graph theory application.
 - **binary_trees**: Problems where you are given trees (acyclic graphs) where each node has at most 2 children.
 - **dynamic_programming**: Problems with solutions involving the algorithm design technique, dynamic programming.
+- **strings**: Problems where the inputs are strings; these problems also don't fall under other categories, generally.
 - **linked_lists**: Problems where you are given a linked list to operate on.
 - **ptr_or_window_technique**: Problems that use two pointer, sliding window, or a similar technique.
 - **greedy**: Problems where a good solution involves a greedy algorithm.
