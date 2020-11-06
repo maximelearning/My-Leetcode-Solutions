@@ -21,14 +21,19 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        zero_pos = 0
+        # EXPLANATION:
+        # We will iterate from left to right
+        # We will bunch up our zeroes as we go along the path
+        # When we see a non-zero value, we will switch it
+        #   with the left most zero in our bunched up zeroes
+        #   
+        # [0,1,0,3] start, we increment num_zeroes by 1 since index 0 has a 0
+        # [1,0,0,3] switched index 0 and 1, since index 1 was a 0.
+        # [1,0,0,3] increment num_zeroes by 1 again, since index 2 is a 0
+        # [1,3,0,0] now we switch index 3 with the left most 0 (index 1)
+        num_zeroes = 0
         for i in range(len(nums)):
-            if nums[i] != 0:
-                nums[i], nums[zero_pos] = nums[zero_pos], nums[i]
-                zero_pos += 1
-
-        """
-        [0,1,0,3,12] i = 0, zero_pos = 0
-        [1,0,0,3,12] i = 1, zero_pos = 1 <-- at the end of the transformation
-        [0,1,0,3,12] i = 2, zero_pos
-        """
+            if nums[i] == 0:
+                num_zeroes = num_zeroes + 1
+            elif num_zeroes > 0:
+                nums[i], nums[i - num_zeroes] = nums[i - num_zeroes], nums[i]
